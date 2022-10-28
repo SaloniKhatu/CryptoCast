@@ -1,0 +1,5 @@
+QRC to PY:
+pyrcc5 resource.qrc -o resource_rc.py
+
+UI to PY:
+pyuic5 -x add.ui -o add.py

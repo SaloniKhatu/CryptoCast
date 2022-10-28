@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>graph</class>
+ <widget class="QDialog" name="graph">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1037</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1040</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-image:url(:/bg/graphpg2.jpeg);}</string>
+   </property>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>250</y>
+      <width>130</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Bitcoin</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ethereum</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Litecoin</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dogecoin</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ripple</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="graphbtn">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>460</y>
+      <width>110</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Generate</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>300</y>
+      <width>130</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Cardano</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shib</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>WazirX</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Matic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Solana</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>400</y>
+      <width>70</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>2016</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2017</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2018</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2019</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2020</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2021</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_4">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>400</y>
+      <width>70</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>2017</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2018</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2019</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2020</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2021</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2022</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,9 @@
+BTC VS ETH (2018-2022) Bitcoin vs Ethereum
+DOGE VS HBAR (2021-2022) Dogecoin vs Hedera Hashgraph 
+LTC VS DASH (2019-2022) Litecoin vs Dash
+CRV VS MANA (2021-2022) Curve Dao Token vs Decentraland
+HNT VS DOT (2021-2022) Helium vs Polkadot
+
+
+, clicked= lambda:self.showPop()
+, clicked= lambda:self.openDisc()

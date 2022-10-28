@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="bg">
+    <file>Images/disclaimer.jpeg</file>
+    <file>Images/graphpg1.jpeg</file>
+    <file>Images/graphpg2.jpeg</file>
+    <file>Images/login.jpeg</file>
+    <file>Images/register.jpeg</file>
+    <file>Images/Start.jpeg</file>
+  </qresource>
+</RCC>
